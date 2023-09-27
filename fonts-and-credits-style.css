@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    overflow-x: hidden !important;
+}
+
+@media (max-width: 786px) {
+    body, html {
+        overflow-x: hidden !important;
+    }
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-image: url(imgs/header_desktop.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#title {
+    color: #ff1616;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Calibri, sans-serif;
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-shadow: #000 -1px 1px;
+}
+
+#btn-back-to-index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    color: white;
+    padding: 5px;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    border-radius: 10px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.titleSections {
+    padding: 0.5%;
+    background-color: black;
+}
+
+.titleSections h2 {
+    margin-left: 10%;
+    color: white;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+ul {
+    font-size: 20px;
+    margin: 2%;
+    margin-left: 5%;
+}
+
+ul li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+ul li a {
+    color: #3b3b3b;
+}
