@@ -1,3 +1,3 @@
 # Atentados Escolares - Artigo
-Um artigo sobre Atentados Escolares destinado ao Programa Agrinho do Paraná em 2023.
-Link: https://atentados-escolares.vercel.app/
+<p>Um artigo sobre Atentados Escolares destinado ao Programa Agrinho do Paraná em 2023.</p>
+<p>Link: https://atentados-escolares.vercel.app/</p>
